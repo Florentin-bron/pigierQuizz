@@ -12,10 +12,8 @@ export const styles =  StyleSheet.create({
         flex: 1,
         paddingTop: StatusBar.currentHeight
     },
-    containerGame: {
+    containerTeam: {
         flex: 1,
-        alignItems: 'flex-start',
-        backgroundColor: '#79e84f'
     },
     header: {
         backgroundColor: 'grey',
@@ -29,5 +27,16 @@ export const styles =  StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         flex: 1,
+    },
+    removeBtn:{
+        position: 'absolute',
+        right: 10,
+        fontSize: 40,
+        textAlign:'center',
+        paddingLeft: 10,
+        paddingRight:10,
+        borderWidth:2,
+        borderColor: "black",
+        borderRadius: 10
     },
 })
